@@ -1,0 +1,36 @@
+body {
+    font-family: "Arial", "Meiryo", sans-serif; 
+    text-align: center;  
+  }
+
+  /* フォントの装飾    */
+html {
+        font-size: 20px;    /* ルート要素 */
+      }
+      
+  /* h1 の装飾    */
+h1 {  
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 200%;                
+  letter-spacing: 1.2em;  /*文字間は、文字の大きさに対して1.2倍 */
+  text-shadow: 1px 1px 2px gray;
+  border-bottom: solid 3px rgb(115, 115, 114);
+  text-align: center;  
+}
+
+  /* カラー装飾    */
+.blue {
+  color: skyblue;
+}
+.pink {
+  color: rgb(255, 192, 203) ;
+}
+
+  /* 子孫要素の装飾    */
+#basic > p {
+  font-weight: bold;
+}
